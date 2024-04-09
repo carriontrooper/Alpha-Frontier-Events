@@ -1,0 +1,26 @@
+[
+	{
+		"name": "TestAlphaFrontierEvent",
+		"text": "Testing events",
+		"choices": [
+			{
+				"text": "Choice for everyone",
+				"triggeredUniques": [
+					"Free [Frontier Militia] appears <in cities with a [Colony Headquarters]>",
+				],
+				"conditions": [
+					"<for [All]>",
+				]
+			},
+			{
+				"text": "Choice for Xenoidid only",
+				"triggeredUniques": [
+					"Free [Bugwolf] appears <in cities with a [Colony Headquarters]>",
+				],
+				"conditions": [
+					"<for [Xenoidid]>",
+				]
+			}
+		]
+	}
+]
