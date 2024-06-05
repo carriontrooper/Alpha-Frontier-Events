@@ -1,5 +1,58 @@
 [
+	// generic events
+	/*
+		ideas:
+		xenoflora studies
+		enemy defectors
+	*/
+
+	// wonder construction events
+	/*
+		ideas:
+		akashipedia: additional yield (science / culture?) / less storage space
+		hades core bore: optimizing for (production / credits?) / add mineral luxury
+		saraswati: additional yield (culture) / enrich other cities' cultural buildings
+		jormungand: add 1 sight to naval units / add strength bonus to military naval units
+		panoptikon: additional unhappiness nerf / add yield (faith) / less storage space
+		valhalla: bonus to great tacticians / one extra promotion to units / less storage space
+		balor: add yield (credits) / spawn free laser tank
+		houyi: add city defense / more AA strength
+		gaia: add yield (food / culture / science?)
+		xeno gene tapestry: add yield (food) / spawn free xeno unit
+		vyasa-gandhari: spawn free clone trooper / free cloning vats in first 4 cities
+		hyperspace augur: bonus to tactical comms / add yield (science / culture?)
+		microsingularity: add antimatter / add yield (science) / spawn free graviton unit
+		old terra resort: add yield (credits / culture?) / spawn great influencer
+		yggdrasil: add yield (food / culture?) / add nuke survival chance
+		interdimensional gate: start golden age / add yield (science) / more science per specialist in all cities
+		shambhala: add yield (culture / faith / science?) / spawn great visionary / gain free virtual faith building
+		surrogate xenomind: spawn small hive / add happiness / add yield (science)
+		space elevator: get free orbital station / boost trade routes
+		economic oracle: add yield (credits) / boost trade routes / add credits per friendship
+		global consciousness: less CS degradation / double CS influence recovery / higher CS resting point
+		void lens: 
+	*/
+
+	// belief/religion related events
+	/*
+		ideas:
+		fungal revelations
+		xeno observation
+		aurora
+		drug overdoses
+		faith in science pays off
+		mercenary idols
+	*/
+	
 	// nation unique events
+	/*
+		ideas:
+		Deep Rock Ganymede: dug too deep
+		Walpole-Yuen: xeno response
+		Badwalmusafir: visions
+		Thespiaux: periodical festivals
+		Somatek: soma proliferation
+	*/
 	{
 		"name": "Encountered friendly Xeno",
 		"text": "Your seed-ship full of refugees had crashlanded in this alien planet, and within days you've understood that most of the native lifeforms here are hostile towards humans. But, recently you've found that a small, neighboring hive does not share the hive-mindedness of others you've seen before, and you've managed to somewhat tame one of them. What sort of Xenoform is this?",
