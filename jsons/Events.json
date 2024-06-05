@@ -4,6 +4,7 @@
 		ideas:
 		xenoflora studies
 		enemy defectors
+		stock market revenue
 	*/
 
 	// wonder construction events
@@ -30,7 +31,7 @@
 		space elevator: get free orbital station / boost trade routes
 		economic oracle: add yield (credits) / boost trade routes / add credits per friendship
 		global consciousness: less CS degradation / double CS influence recovery / higher CS resting point
-		void lens: 
+		void lens: add antimatter / add yield (science)
 	*/
 
 	// belief/religion related events
