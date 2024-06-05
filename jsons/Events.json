@@ -1,24 +1,25 @@
 [
+	// nation unique events
 	{
-		"name": "TestAlphaFrontierEvent",
-		"text": "Testing events",
+		"name": "Encountered friendly Xeno",
+		"text": "Your seed-ship full of refugees had crashlanded in this alien planet, and within days you've understood that most of the native lifeforms here are hostile towards humans. But, recently you've found that a small, neighboring hive does not share the hive-mindedness of others you've seen before, and you've managed to somewhat tame one of them. What sort of Xenoform is this?",
 		"choices": [
 			{
-				"text": "Choice for everyone",
+				"text": "A predatory-looking ground bug",
 				"triggeredUniques": [
-					"Free [Frontier Militia] appears <in cities with a [Colony Headquarters]>",
-				],
-				"conditions": [
-					"<for [All]>",
+					"Free [Bugwolf] appears"
 				]
 			},
 			{
-				"text": "Choice for Xenoidid only",
+				"text": "A flying, mosquito-like bug",
 				"triggeredUniques": [
-					"Free [Bugwolf] appears <in cities with a [Colony Headquarters]>",
-				],
-				"conditions": [
-					"<for [Xenoidid]>",
+					"Free [Darter] appears"
+				]
+			},
+			{
+				"text": "A spiky, defensive bug",
+				"triggeredUniques": [
+					"Free [Echidna] appears"
 				]
 			}
 		]
