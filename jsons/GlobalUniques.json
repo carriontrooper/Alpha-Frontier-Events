@@ -2,5 +2,6 @@
 	"name": "Global uniques",
 	"uniques": [
 		// event triggers
+		"Triggers a [Encountered Friendly Xenos] event <for [Xenoidid Empire]> <upon constructing [Colony Headquarters]> <in [Capital] cities>"
 	]
 }
