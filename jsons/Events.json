@@ -5,6 +5,19 @@
 		xenoflora studies
 		enemy defectors
 		stock market revenue
+		miasma poisoning
+		ambushed by xenos
+		rockbud bloom
+		bumper harvest
+		comet sighted
+		seismic disturbance
+		xenogerm plague
+		xeno blight
+		rise in crime
+		augment panic
+		cyberbrain virus
+		failed nerve stapling
+		teleport clone
 	*/
 
 	// wonder construction events
@@ -32,6 +45,17 @@
 		economic oracle: add yield (credits) / boost trade routes / add credits per friendship
 		global consciousness: less CS degradation / double CS influence recovery / higher CS resting point
 		void lens: add antimatter / add yield (science)
+
+		WONDER BUILDING ONLY!
+		neuroreef: add yield (science / credit)
+		megaxenoform: add yield (science / production)
+		uttershroom: add yield (science / culture) / spawn friendly mycon
+		aurigan vault: add yield (science) / new infantry units gain vaulter promotion
+		world tree: add yield (happiness) / add 3 vitamass / new units gain medic promotion
+		floating mountain: add city defense / new air units gain exp
+		harborship: add yield (science / credit)
+		amoebic lake: add yield (faith / culture)
+		flesh pit: add yield (credit / culture)
 	*/
 
 	// belief/religion related events
@@ -43,6 +67,7 @@
 		drug overdoses
 		faith in science pays off
 		mercenary idols
+		fanatic zeal
 	*/
 	
 	// nation unique events
@@ -53,6 +78,10 @@
 		Badwalmusafir: visions
 		Thespiaux: periodical festivals
 		Somatek: soma proliferation
+		Free Waverunners: treasure stash
+		Thespiaux: current trend
+		Daikyu Boei Kikan: hacking opportunity
+		Belta V: veteran refugees
 	*/
 	{
 		"name": "Encountered friendly Xeno",
