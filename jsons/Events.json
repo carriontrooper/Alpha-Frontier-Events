@@ -106,5 +106,35 @@
 				]
 			}
 		]
+	},
+	{
+		"name": "Dug too deep",
+		"text": "A routine digging mission had uncovered a cavern full of mineral riches - but also hostile Xenos. What are your orders?",
+		"choices": [
+			{
+				"text": "There's nothing we can do for the mining team. Let's hope they can survive and return safely.",
+				"triggeredUniques": [
+					"[-1] population in a random city <with [50]% chance>"
+				]
+			},
+			{
+				"text": "Deploy a shock fence to keep Xenos out and extract our miners safely!",
+				"triggeredUniques": [
+					"Gain [1]-[2] [Happiness] <for [2] turns>"
+				],
+				"conditions": [
+					"after discovering [Xenobiology]"
+				]
+			},
+			{
+				"text": "Extract our miners - but take note of that rich seam of ore! HQ will dig them remotely.",
+				"triggeredUniques": [
+					"Gain [10]-[50] [Production] <in [Capital] cities>"
+				],
+				"conditions": [
+					"after discovering [Deep Resource Scanning]"
+				]
+			}
+		]
 	}
 ]
