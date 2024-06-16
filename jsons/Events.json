@@ -19,6 +19,18 @@
 		failed nerve stapling
 		teleport clone
 	*/
+	{
+		"name": "Bountiful harvest",
+		"text": "Our farmers report a larger than usual harvest!",
+		"choices": [
+			{
+				"text": "Distribute them equally, our people deserve that.",
+				"triggeredUniques": [
+					"Gain [30]-[50] [Food] <in [All] cities>"
+				]
+			}
+		]
+	},
 
 	// wonder construction events
 	/*
