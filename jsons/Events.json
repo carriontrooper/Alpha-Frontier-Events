@@ -20,6 +20,31 @@
 		teleport clone
 	*/
 	{
+		"name": "Test xeno spawn1",
+		"text": "Ack, xenos are multiplying!",
+		"choices": [
+			{
+				"text": "Well, sheeeeit.",
+				"triggeredUniques": [
+					"Triggers a [Test xeno spawn2] event <for [Barbarians]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Test xeno spawn2",
+		"text": "Mwahaha, xenos are multiplying!",
+		"choices": [
+			{
+				"text": "A plague of Darters!",
+				"triggeredUniques": [
+					"[50] free [Darter] appear <for [Barbarians]>"
+				]
+			}
+		]
+	},
+	
+	{
 		"name": "Bountiful harvest",
 		"text": "Our farmers report a larger than usual harvest!",
 		"choices": [
