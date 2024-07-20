@@ -26,11 +26,13 @@
 			{
 				"text": "Well, sheeeeit.",
 				"triggeredUniques": [
-					"Triggers a [Test xeno spawn2] event <for [Barbarians]>"
+					//"Triggers a [Test xeno spawn2] event <for [Barbarians]>"
+					"Gain a free [TestBuilding1] [in all cities] <for [Barbarians]>"
 				]
 			}
 		]
 	},
+	
 	{
 		"name": "Test xeno spawn2",
 		"text": "Mwahaha, xenos are multiplying!",
@@ -43,6 +45,7 @@
 			}
 		]
 	},
+	
 	
 	{
 		"name": "Bountiful harvest",
