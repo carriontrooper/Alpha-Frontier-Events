@@ -1,0 +1,11 @@
+[
+	{
+		"name": "TestBuilding1",
+		//"maintenance": 4,
+		"hurryCostModifier": 50,
+		//"uniques": [
+		//],
+		"requiredTech": "Old Earth Knowledge"
+	},
+	}
+]
