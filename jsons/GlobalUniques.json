@@ -3,6 +3,8 @@
 	"uniques": [
 		// event triggers
 		"Triggers a [Test xeno spawn1] event <upon turn end> <after turn number [1]>",
+		"[50] free [Darter] appear <for [Barbarians]> <upon constructing [TestBuilding1]>",
+		
 		"Triggers a [Bountiful harvest] event <with [1]% chance> <upon turn end>",
 		"Triggers a [Encountered friendly Xeno] event <for [Xenoidid Empire]> <upon constructing [Colony Headquarters]> <in [Capital] cities>",
 		"Triggers a [Dug too deep] event <for [Deep Rock Ganymede]> <with [1]% chance> <upon turn end> <after discovering [Xenogeology]>"
