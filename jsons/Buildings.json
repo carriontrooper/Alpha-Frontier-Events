@@ -4,8 +4,10 @@
 		"uniqueTo": "Barbarians",
 		//"maintenance": 4,
 		"hurryCostModifier": 50,
-		//"uniques": [
-		//],
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased"
+		],
 		"requiredTech": "Old Earth Knowledge"
 	}
 ]
