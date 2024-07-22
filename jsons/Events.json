@@ -27,7 +27,8 @@
 				"text": "Well, sheeeeit.",
 				"triggeredUniques": [
 					//"Triggers a [Test xeno spawn2] event <for [Barbarians]>"
-					"Gain a free [TestBuilding1] [in all cities] <for [Barbarians]>"
+					//"Gain a free [TestBuilding1] [in all cities] <for [Barbarians]>"
+					"[50] free [Darter] appear <for [Barbarians]>"
 				]
 			}
 		]
