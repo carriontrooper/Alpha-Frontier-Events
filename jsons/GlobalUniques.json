@@ -2,7 +2,7 @@
 	"name": "Global uniques",
 	"uniques": [
 		// event triggers
-		"Triggers a [Test xeno spawn1] event <upon turn end> <after turn number [1]>",
+		//"Triggers a [Test xeno spawn1] event <upon turn end> <after turn number [1]>",
 		//"[50] free [Darter] units appear <for [Barbarians]> <upon constructing [TestBuilding1]>",
 		
 		"Triggers a [Bountiful harvest] event <with [1]% chance> <upon turn end>",
