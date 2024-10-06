@@ -25,7 +25,7 @@
 		"choices": [
 			{
 				"text": "Well, sheeeeit.",
-				"triggeredUniques": [
+				"uniques": [
 					//"Triggers a [Test xeno spawn2] event <for [Barbarians]>"
 					//"Gain a free [TestBuilding1] [in all cities] <for [Barbarians]>"
 					"[50] free [Darter] units appear <for [Barbarians]>"
@@ -40,7 +40,7 @@
 		"choices": [
 			{
 				"text": "A plague of Darters!",
-				"triggeredUniques": [
+				"uniques": [
 					"[50] free [Darter] appear <for [Barbarians]>"
 				]
 			}
@@ -54,7 +54,7 @@
 		"choices": [
 			{
 				"text": "Distribute them equally, our people deserve that.",
-				"triggeredUniques": [
+				"uniques": [
 					"Gain [30]-[50] [Food] <in [All] cities>"
 				]
 			}
@@ -130,19 +130,19 @@
 		"choices": [
 			{
 				"text": "A predatory-looking ground bug",
-				"triggeredUniques": [
+				"uniques": [
 					"Free [Bugwolf] appears"
 				]
 			},
 			{
 				"text": "A flying, mosquito-like bug",
-				"triggeredUniques": [
+				"uniques": [
 					"Free [Darter] appears"
 				]
 			},
 			{
 				"text": "A spiky, defensive bug",
-				"triggeredUniques": [
+				"uniques": [
 					"Free [Echidna] appears"
 				]
 			}
@@ -154,26 +154,22 @@
 		"choices": [
 			{
 				"text": "There's nothing we can do for the mining team. Let's hope they can survive and return safely.",
-				"triggeredUniques": [
+				"uniques": [
 					"[-1] population in a random city <with [50]% chance>"
 				]
 			},
 			{
 				"text": "Deploy a shock fence to keep Xenos out and extract our miners safely!",
-				"triggeredUniques": [
-					"Gain [1]-[2] [Happiness] <for [2] turns>"
-				],
-				"conditions": [
-					"after discovering [Xenobiology]"
+				"uniques": [
+					"Gain [1]-[2] [Happiness] <for [2] turns>",
+					"Only available <after discovering [Xenobiology]><hidden from users>"
 				]
 			},
 			{
 				"text": "Extract our miners - but take note of that rich seam of ore! HQ will dig them remotely.",
-				"triggeredUniques": [
-					"Gain [10]-[50] [Production] <in [Capital] cities>"
-				],
-				"conditions": [
-					"after discovering [Deep Resource Scanning]"
+				"uniques": [
+					"Gain [10]-[50] [Production] <in [Capital] cities>",
+					"Only available <after discovering [Deep Resource Scanning]><hidden from users>"
 				]
 			}
 		]
