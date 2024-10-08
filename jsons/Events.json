@@ -19,6 +19,7 @@
 		failed nerve stapling
 		teleport clone
 	*/
+	/*
 	{
 		"name": "Test xeno spawn1",
 		"text": "Ack, xenos are multiplying!",
@@ -46,7 +47,7 @@
 			}
 		]
 	},
-	
+	*/
 	
 	{
 		"name": "Bountiful harvest",
@@ -56,6 +57,12 @@
 				"text": "Distribute them equally, our people deserve that.",
 				"uniques": [
 					"Gain [30]-[50] [Food] <in [All] cities>"
+				]
+			}
+			{
+				"text": "Let's sell them for profit.",
+				"uniques": [
+					"Gain [30]-[50] [Gold]"
 				]
 			}
 		]
