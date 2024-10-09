@@ -68,6 +68,19 @@
 		]
 	},
 
+	{
+		"name": "Stock market revenue",
+		"text": "Our stocks are rising, and we have received dividends!",
+		"choices": [
+			{
+				"text": "Splendid!",
+				"uniques": [
+					"Gain [1]-[3] [Gold] <for every [10] [Gold]>"
+				]
+			}
+		]
+	},
+
 	// wonder construction events
 	/*
 		ideas:
