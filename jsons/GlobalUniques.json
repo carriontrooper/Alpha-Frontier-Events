@@ -8,7 +8,7 @@
 		// general
 		"Triggers a [Bountiful harvest] event <with [1]% chance> <upon turn end>",
 		"Triggers a [Stock market revenue] event <with [1]% chance> <if [Stock Exchange] is constructed> <upon turn end>",
-		"Triggers a [Bountiful harvest] event <with [1]% chance> <upon turn end>"
+		"Triggers a [Bountiful harvest] event <with [1]% chance> <upon turn end>",
 
 		// civ specific
 		"Triggers a [Encountered friendly Xeno] event <for [Xenoidid Empire]> <upon constructing [Colony Headquarters]> <in [Capital] cities>",
