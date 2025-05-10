@@ -118,6 +118,7 @@
 	// wonder construction events
 	/*
 		ideas:
+		(basically add additional unbuildable, unbuyable buildings for additional yields etc)
 		akashipedia: additional yield (science / culture?) / less storage space
 		hades core bore: optimizing for (production / credits?) / add mineral luxury
 		saraswati: additional yield (culture) / enrich other cities' cultural buildings
@@ -170,22 +171,31 @@
 		ideas:
 		Toma: scientific focus -> starts a branching set of events
 		Belta V: veteran refugees
-		Deep Rock Ganymede: dug too deep
+		Deep Rock Ganymede: dug too deep v
 		Walpole-Yuen: xeno response
 		Somatek: soma proliferation
 		Skye: test chambers
 		Daikyu Boei Kikan: hacking opportunity
 		Einherjar: conscription
-		Thespiaux: periodical festivals
-		Thespiaux: current trend
+		Thespiaux: periodical festivals v
+		Thespiaux: current trend v
 		Badwalmusafir: visions
-		Xenoidid: friendly xenos
+		Xenoidid: friendly xenos v
 		Imperio: on human purity
 		Xingxing Fazhan Bu: peacekeeping patrol
 		Free Waverunners: treasure stash
 		Blue Streak: new aerocraft design -> branching
 		Jaeger: mecha testing arena
-		
+
+		New Powers +++
+		Helios: urban park suggestion
+		Shamsy: political rival
+		Saturnus: orbital research bears fruit
+		KGV: engineering solutions
+		KGV: xeno-hunting safari
+		Cradian: promising scholarship
+		NPUF: recruitment drive
+		NAEC: new financial scheme
 	*/
 	{
 		"name": "Encountered friendly Xeno",
@@ -233,6 +243,113 @@
 				"uniques": [
 					"Gain [10]-[50] [Production] <in [Capital] cities>",
 					"Only available <after discovering [Deep Resource Scanning]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Current trend",
+		"text": "It is our duty - nay, our privilege as media moguls to shift public perception on what is trendy. What cultural trend should we display to the masses?",
+		"choices": [
+			{
+				"text": "Military-chic is in vogue!",
+				"uniques": [
+					"[+5]% Production when constructing [Infantry] units [in all cities] <for [5] turns>"
+				]
+			},
+			{
+				"text": "Academique style is popular right now!",
+				"uniques": [
+					"Gain [100] [Science] <for [5] turns>"
+				]
+			},
+			{
+				"text": "Industro punk would be a bold statement!",
+				"uniques": [
+					"[+5]% [Production] [in all cities] <for [5] turns>"
+				]
+			},
+			{
+				"text": "Xeno-biotheque feels quite exotic!",
+				"uniques": [
+					"[+2 Culture] from [Xeno Sanctuary] tiles [in all cities] <for [5] turns>",
+					"Only available <after adopting [Xeno-Cooperation]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Let's revive Neo-Trad fashion!",
+				"uniques": [
+					"[+5 Culture] from every [Proxy Office] <for [5] turns>",
+					"Only available <after adopting [Appropriation]> <hidden from users>"
+				]
+			},
+			{
+				"text": "I feel that Cyberpop is the future!",
+				"uniques": [
+					"[+1 Culture] from every specialist [in all cities] <for [5] turns>",
+					"Only available <after adopting [Logical Progression]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Periodical festivals",
+		"text": "It is time for our periodic festival, and we are keen to showcase the luxuries we and our trade partners have. What should we focus on?",
+		"choices": [
+			{
+				"text": "We can't just focus on one, generalize it!",
+				"uniques": [
+					"[+1 Happiness] <for [10] turns>"
+				]
+			},
+			{
+				"text": "Focus on the most beautiful jewelries!",
+				"uniques": [
+					"[+1 Happiness] <for [10] turns>",
+					"[+1 Happiness] <with [Benthic Orbs]> <for [10] turns>",
+					"[+1 Happiness] <with [Kaibir Crystals]> <for [10] turns>",
+					"[+1 Happiness] <with [Jadonyx]> <for [10] turns>",
+					"[+1 Happiness] <with [Harmonix Crystals]> <for [10] turns>",
+					"[+1 Happiness] <with [Ruby Cactus]> <for [10] turns>"
+				]
+			},
+			{
+				"text": "Focus on the most delectable cuisines!",
+				"uniques": [
+					"[+1 Happiness] <for [10] turns>",
+					"[+1 Happiness] <with [Sindrian Lobster]> <for [10] turns>",
+					"[+1 Happiness] <with [Hydromielin]> <for [10] turns>",
+					"[+1 Happiness] <with [Spice]> <for [10] turns>"
+				]
+			},
+			{
+				"text": "Focus on the cutest pets!",
+				"uniques": [
+					"[+1 Happiness] <for [10] turns>",
+					"[+1 Happiness] <with [Snuffets]> <for [10] turns>",
+					"[+2 Happiness] <with [Digipets]> <for [10] turns>"
+				]
+			},
+			{
+				"text": "Focus on the latest fashions!",
+				"uniques": [
+					"[+1 Happiness] <for [10] turns>",
+					"[+2 Happiness] <with [Brand Fashion]> <for [10] turns>"
+				]
+			},
+			{
+				"text": "Focus on the finest liquors!",
+				"uniques": [
+					"[+1 Happiness] <for [10] turns>",
+					"[+2 Happiness] <with [Jovian Lager]> <for [10] turns>",
+					"[+1 Happiness] <with [Stout Ale]> <for [10] turns>"
+				]
+			},
+			{
+				"text": "Focus on the most luxurious furnitures!",
+				"uniques": [
+					"[+1 Happiness] <for [10] turns>",
+					"[+2 Happiness] <with [Smart Furniture]> <for [10] turns>"
 				]
 			}
 		]
