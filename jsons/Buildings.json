@@ -1,4 +1,5 @@
 [
+	/*
 	{
 		"name": "TestBuilding1",
 		"uniqueTo": "Barbarians",
@@ -9,5 +10,36 @@
 			"Cannot be purchased"
 		],
 		"requiredTech": "Old Earth Knowledge"
+	}
+	*/
+	{
+		"name": "T-Series Testing Chambers",
+		"uniqueTo": "Skye Robotics",
+		//"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			//"Unbuildable",
+			"New [T-Series] units start with [15] XP [in this city]",
+			"Can only be built <in cities with a [Robotics Testing Lab]>",
+			"Only available <if [T-Series Testing Chambers] is constructed>",
+			"Automatically built in all cities where it is buildable",
+			"Cannot be purchased"
+		],
+		"requiredTech": "Research Networks"
+	},
+	{
+		"name": "Advanced Testing Chambers",
+		"uniqueTo": "Skye Robotics",
+		//"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			//"Unbuildable",
+			"[+1 Science] from every [Science]",
+			"Can only be built <in cities with a [Robotics Testing Lab]>",
+			"Only available <if [Advanced Testing Chambers] is constructed>",
+			"Automatically built in all cities where it is buildable",
+			"Cannot be purchased"
+		],
+		"requiredTech": "Research Networks"
 	}
 ]
