@@ -174,7 +174,7 @@
 		Deep Rock Ganymede: dug too deep v
 		Walpole-Yuen: xeno response
 		Somatek: soma proliferation
-		Skye: test chambers
+		Skye: test chambers v
 		Daikyu Boei Kikan: hacking opportunity
 		Einherjar: conscription
 		Thespiaux: periodical festivals v
@@ -350,6 +350,30 @@
 				"uniques": [
 					"[+1 Happiness] <for [10] turns>",
 					"[+2 Happiness] <with [Smart Furniture]> <for [10] turns>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Test chambers",
+		"text": "Our first Robotics Testing Lab has left the beta-testing phase and is now ready to use. However, additional data suggest that we can further improve on either its military aspect or scientific aspect. What is your decision?",
+		"choices": [
+			{
+				"text": "Let us focus on testing our T-Series on these test chambers.",
+				"uniques": [
+					"Gain a free [T-Series Testing Chambers] [in your cities] <in cities with a [Robotics Testing Lab]>"
+				]
+			},
+			{
+				"text": "Let us focus on more challenging tests to gain more data.",
+				"uniques": [
+					"Gain a free [Advanced Testing Chambers] [in your cities] <in cities with a [Robotics Testing Lab]>"
+				]
+			},
+			{
+				"text": "It suits our purpose, at the moment.",
+				"uniques": [
+					"Comment [The Robotics Testing Lab stays the same.]"
 				]
 			}
 		]
