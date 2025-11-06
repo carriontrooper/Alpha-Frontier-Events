@@ -8,13 +8,20 @@
 		// general
 		"Triggers a [Bountiful harvest] event <with [1]% chance> <upon turn end>",
 		"Triggers a [Stock market revenue] event <with [1]% chance> <if [Stock Exchange] is constructed> <upon turn end>",
+		"Triggers a [Stock market crash] event <with [1]% chance> <if [Stock Exchange] is constructed> <upon turn end>",
 		"Triggers a [Comet sighted] event <with [1]% chance> <upon turn end>",
 
 		// civ specific
 		"Triggers a [Encountered friendly Xeno] event <for [Xenoidid Empire] Civilizations> <upon constructing [Colony Headquarters]> <in [Capital] cities>",
-		"Triggers a [Dug too deep] event <for [Deep Rock Ganymede] Civilizations> <with [1]% chance> <upon turn end> <after discovering [Xenogeology]>",
+		"Triggers a [Dug too deep] event <for [Deep Rock Ganymede] Civilizations> <with [3]% chance> <upon turn end> <after discovering [Xenogeology]>",
 		"Triggers a [Periodical festivals] event <for [Thespiaux Medianet] Civilizations> <every [15] turns> <after discovering [Pioneer Administration]>",
 		"Triggers a [Current trend] event <for [Thespiaux Medianet] Civilizations> <every [10] turns> <after discovering [Info Networks]> <before discovering [Colonial Culture]>",
-		"Triggers a [Current trend] event <for [Thespiaux Medianet] Civilizations> <every [6] turns> <after discovering [Colonial Culture]>"
+		"Triggers a [Current trend] event <for [Thespiaux Medianet] Civilizations> <every [6] turns> <after discovering [Colonial Culture]>",
+		"Triggers a [Test chambers] event <for [Skye Robotics] Civilizations> <upon constructing [Robotics Testing Lab]>",
+		"Triggers a [Veteran Martian refugees] event <for [Belta V Offworld Mining] Civilizations> <with [2]% chance> <upon turn end> <starting from the [Colonization era]>",
+		"Triggers a [Veteran Europan refugees] event <for [Belta V Offworld Mining] Civilizations> <with [2]% chance> <upon turn end> <starting from the [Colonization era]>",
+		"Triggers a [Veteran Ex-Roider refugees] event <for [Belta V Offworld Mining] Civilizations> <with [2]% chance> <upon turn end> <starting from the [Colonization era]>",
+		"Triggers a [Veteran Jovian refugees] event <for [Belta V Offworld Mining] Civilizations> <with [2]% chance> <upon turn end> <starting from the [Colonization era]>",
+		"Triggers a [Veteran Rockhopper refugees] event <for [Belta V Offworld Mining] Civilizations> <with [2]% chance> <upon turn end> <starting from the [Halcyon era]>"
 	]
 }
