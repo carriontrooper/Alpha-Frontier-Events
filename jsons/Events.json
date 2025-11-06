@@ -82,6 +82,20 @@
 	},
 
 	{
+		"name": "Stock market crash",
+		"text": "Our stocks are flagging, and our profits are taking a sharp tumble!",
+		"choices": [
+			{
+				"text": "Oh no!",
+				"uniques": [
+					"Comment [Lose 300 [Gold]]",
+					"Gain [-300] [Gold] <hidden from users>"
+				]
+			}
+		]
+	},
+
+	{
 		"name": "Comet sighted",
 		"text": "A comet has been sighted passing close to the planet!",
 		"choices": [
