@@ -379,7 +379,7 @@
 		]
 	},
 	{
-		"name": "Veteran Martian Refugees",
+		"name": "Veteran Martian refugees",
 		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of the Martian Independence wars.",
 		"choices": [
 			{
@@ -415,7 +415,7 @@
 		]
 	},
 	{
-		"name": "Veteran Europan Refugees",
+		"name": "Veteran Europan refugees",
 		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of the Jovian wars.",
 		"choices": [
 			{
@@ -451,7 +451,7 @@
 		]
 	},
 	{
-		"name": "Veteran Ex-Roider Refugees",
+		"name": "Veteran Ex-Roider refugees",
 		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of Roider pirates, seeking asylum.",
 		"choices": [
 			{
@@ -487,7 +487,7 @@
 		]
 	},
 	{
-		"name": "Veteran Jovian Refugees",
+		"name": "Veteran Jovian refugees",
 		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of the second Jovian wars.",
 		"choices": [
 			{
@@ -523,7 +523,7 @@
 		]
 	},
 	{
-		"name": "Veteran Rockhopper Refugees",
+		"name": "Veteran Rockhopper refugees",
 		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veteran drop troopers of Roider mercenaries.",
 		"choices": [
 			{
