@@ -94,7 +94,7 @@
 			{
 				"text": "Make the comet a media sensation, our populace would be delighted.",
 				"uniques": [
-					"Gain [1]-[3] [Happiness] <for [3] turns>",
+					"[+3 Happiness] [in all cities] <for [3] turns>",
 					"Gain [5]-[15] [Culture]"
 				]
 			},
@@ -170,7 +170,7 @@
 	/*
 		ideas:
 		Toma: scientific focus -> starts a branching set of events
-		Belta V: veteran refugees
+		Belta V: veteran refugees v
 		Deep Rock Ganymede: dug too deep v
 		Walpole-Yuen: xeno response
 		Somatek: soma proliferation
@@ -234,7 +234,7 @@
 			{
 				"text": "Deploy a shock fence to keep Xenos out and extract our miners safely!",
 				"uniques": [
-					"Gain [1]-[2] [Happiness] <for [2] turns>",
+					"[+2 Happiness] [in all cities] <for [2] turns>",
 					"Only available <after discovering [Xenobiology]> <hidden from users>"
 				]
 			},
@@ -299,57 +299,57 @@
 			{
 				"text": "We can't just focus on one, generalize it!",
 				"uniques": [
-					"[+1 Happiness] <for [10] turns>"
+					"[+1 Happiness] [in all cities] <for [10] turns>"
 				]
 			},
 			{
 				"text": "Focus on the most beautiful jewelries!",
 				"uniques": [
-					"[+1 Happiness] <for [10] turns>",
-					"[+1 Happiness] <with [Benthic Orbs]> <for [10] turns>",
-					"[+1 Happiness] <with [Kaibir Crystals]> <for [10] turns>",
-					"[+1 Happiness] <with [Jadonyx]> <for [10] turns>",
-					"[+1 Happiness] <with [Harmonix Crystals]> <for [10] turns>",
-					"[+1 Happiness] <with [Ruby Cactus]> <for [10] turns>"
+					"[+1 Happiness] [in all cities] <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Benthic Orbs]> <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Kaibir Crystals]> <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Jadonyx]> <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Harmonix Crystals]> <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Ruby Cactus]> <for [10] turns>"
 				]
 			},
 			{
 				"text": "Focus on the most delectable cuisines!",
 				"uniques": [
-					"[+1 Happiness] <for [10] turns>",
-					"[+1 Happiness] <with [Sindrian Lobster]> <for [10] turns>",
-					"[+1 Happiness] <with [Hydromielin]> <for [10] turns>",
-					"[+1 Happiness] <with [Spice]> <for [10] turns>"
+					"[+1 Happiness] [in all cities] <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Sindrian Lobster]> <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Hydromielin]> <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Spice]> <for [10] turns>"
 				]
 			},
 			{
 				"text": "Focus on the cutest pets!",
 				"uniques": [
-					"[+1 Happiness] <for [10] turns>",
-					"[+1 Happiness] <with [Snuffets]> <for [10] turns>",
-					"[+2 Happiness] <with [Digipets]> <for [10] turns>"
+					"[+1 Happiness] [in all cities] <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Snuffets]> <for [10] turns>",
+					"[+2 Happiness] [in all cities] <with [Digipets]> <for [10] turns>"
 				]
 			},
 			{
 				"text": "Focus on the latest fashions!",
 				"uniques": [
-					"[+1 Happiness] <for [10] turns>",
-					"[+2 Happiness] <with [Brand Fashion]> <for [10] turns>"
+					"[+1 Happiness] [in all cities] <for [10] turns>",
+					"[+2 Happiness] [in all cities] <with [Brand Fashion]> <for [10] turns>"
 				]
 			},
 			{
 				"text": "Focus on the finest liquors!",
 				"uniques": [
-					"[+1 Happiness] <for [10] turns>",
-					"[+2 Happiness] <with [Jovian Lager]> <for [10] turns>",
-					"[+1 Happiness] <with [Stout Ale]> <for [10] turns>"
+					"[+1 Happiness] [in all cities] <for [10] turns>",
+					"[+2 Happiness] [in all cities] <with [Jovian Lager]> <for [10] turns>",
+					"[+1 Happiness] [in all cities] <with [Stout Ale]> <for [10] turns>"
 				]
 			},
 			{
 				"text": "Focus on the most luxurious furnitures!",
 				"uniques": [
-					"[+1 Happiness] <for [10] turns>",
-					"[+2 Happiness] <with [Smart Furniture]> <for [10] turns>"
+					"[+1 Happiness] [in all cities] <for [10] turns>",
+					"[+2 Happiness] [in all cities] <with [Smart Furniture]> <for [10] turns>"
 				]
 			}
 		]
@@ -377,5 +377,185 @@
 				]
 			}
 		]
-	}
+	},
+	{
+		"name": "Veteran Martian Refugees",
+		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of the Martian Independence wars.",
+		"choices": [
+			{
+				"text": "These so-called refugees can prove to be a security risk! Arrest them!",
+			  	"uniques": [
+					"Rebel units may spawn <for [10] turns>",
+					"Gain [50] [Culture]"
+			  	]
+			},
+
+			{
+				"text": "We have no space to share, turn them away!",
+			  	"uniques": [
+					"Comment [The refugees leave.]"
+				]
+			},
+
+			{
+				"text": "Take them in, if only they agree to our disarmament terms.",
+			  	"uniques": [
+					"[2] population in a random city"
+			  	]
+			},
+      
+     		{
+				"text": "Pay them well, and bring them into our service!",
+			  	"uniques": [
+					"Comment [Lose 100 [Gold]]",
+				  	"[2] free [Martian Free Rifles (Colony Rifleman)] units appear",
+					"Gain [-100] [Gold] <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Veteran Europan Refugees",
+		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of the Jovian wars.",
+		"choices": [
+			{
+				"text": "These so-called refugees can prove to be a security risk! Arrest them!",
+			  	"uniques": [
+					"Rebel units may spawn <for [10] turns>",
+					"Gain [50] [Culture]"
+			  	]
+			},
+
+			{
+				"text": "We have no space to share, turn them away!",
+			  	"uniques": [
+					"Comment [The refugees leave.]"
+				]
+			},
+
+			{
+				"text": "Take them in, if only they agree to our disarmament terms.",
+			  	"uniques": [
+					"[2] population in a random city"
+			  	]
+			},
+      
+     		{
+				"text": "Pay them well, and bring them into our service!",
+			  	"uniques": [
+					"Comment [Lose 100 [Gold]]",
+				  	"[2] free [Europan Deadshots (Colony Marksman)] units appear",
+					"Gain [-100] [Gold] <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Veteran Ex-Roider Refugees",
+		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of Roider pirates, seeking asylum.",
+		"choices": [
+			{
+				"text": "These so-called refugees can prove to be a security risk! Arrest them!",
+			  	"uniques": [
+					"Rebel units may spawn <for [10] turns>",
+					"Gain [50] [Culture]"
+			  	]
+			},
+
+			{
+				"text": "We have no space to share, turn them away!",
+			  	"uniques": [
+					"Comment [The refugees leave.]"
+				]
+			},
+
+			{
+				"text": "Take them in, if only they agree to our disarmament terms.",
+			  	"uniques": [
+					"[2] population in a random city"
+			  	]
+			},
+      
+     		{
+				"text": "Pay them well, and bring them into our service!",
+			  	"uniques": [
+					"Comment [Lose 200 [Gold]]",
+				  	"[2] free [Sundowner Company (Exoframe Soldier)] units appear",
+					"Gain [-200] [Gold] <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Veteran Jovian Refugees",
+		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veterans of the second Jovian wars.",
+		"choices": [
+			{
+				"text": "These so-called refugees can prove to be a security risk! Arrest them!",
+			  	"uniques": [
+					"Rebel units may spawn <for [10] turns>",
+					"Gain [50] [Culture]"
+			  	]
+			},
+
+			{
+				"text": "We have no space to share, turn them away!",
+			  	"uniques": [
+					"Comment [The refugees leave.]"
+				]
+			},
+
+			{
+				"text": "Take them in, if only they agree to our disarmament terms.",
+			  	"uniques": [
+					"[2] population in a random city"
+			  	]
+			},
+      
+     		{
+				"text": "Pay them well, and bring them into our service!",
+			  	"uniques": [
+					"Comment [Lose 200 [Gold]]",
+				  	"[2] free [Jovian Wolves Company (Exoframe Sniper)] units appear",
+					"Gain [-200] [Gold] <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Veteran Rockhopper Refugees",
+		"text": "A small fleet of refugees arrive at our doorstep, claiming to be veteran drop troopers of Roider mercenaries.",
+		"choices": [
+			{
+				"text": "These so-called refugees can prove to be a security risk! Arrest them!",
+			  	"uniques": [
+					"Rebel units may spawn <for [10] turns>",
+					"Gain [50] [Culture]"
+			  	]
+			},
+
+			{
+				"text": "We have no space to share, turn them away!",
+			  	"uniques": [
+					"Comment [The refugees leave.]"
+				]
+			},
+
+			{
+				"text": "Take them in, if only they agree to our disarmament terms.",
+			  	"uniques": [
+					"[2] population in a random city"
+			  	]
+			},
+      
+     		{
+				"text": "Pay them well, and bring them into our service!",
+			  	"uniques": [
+					"Comment [Lose 300 [Gold]]",
+				  	"[2] free [Rock Hoppers (Drop Trooper)] units appear",
+					"Gain [-300] [Gold] <hidden from users>"
+				]
+			}
+		]
+	},
 ]
